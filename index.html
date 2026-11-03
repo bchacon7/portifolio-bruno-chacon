@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bruno Chacon — Desenvolvedor Web Freelancer</title>
+  <meta name="description" content="Bruno Chacon, desenvolvedor front-end e full-stack freelancer. Sites sob medida, catálogos online e projetos reais para clientes.">
+  
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111a16'/%3E%3Ctext x='32' y='45' font-family='Georgia, serif' font-style='italic' font-size='38' text-anchor='middle' fill='%233cc98e'%3EB%3C/text%3E%3C/svg%3E">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header class="cabecalho" id="cabecalho">
+    <nav class="navegacao recipiente" aria-label="Navegação principal">
+      <a href="#inicio" class="logo" data-testid="logo-link">Bruno <em>Chacon</em></a>
+
+      <button class="menu-botao" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-lista" data-testid="menu-botao">
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="menu-lista" id="menu-lista">
+        <li><a class="menu-link ativo" href="#inicio" data-testid="nav-inicio">Início</a></li>
+        <li><a class="menu-link" href="#projetos" data-testid="nav-projetos">Projetos</a></li>
+        <li><a class="menu-link" href="#sobre" data-testid="nav-sobre">Sobre</a></li>
+        <li><a class="menu-link" href="#contato" data-testid="nav-contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+   
+    <section id="inicio" class="hero">
+      <div class="hero-conteudo recipiente">
+        <p class="hero-rotulo"><span class="hero-traco" aria-hidden="true"></span>Desenvolvedor Front-end &amp; Full-stack — Freelancer</p>
+        <h1 class="hero-titulo">
+          <span class="hero-linha"><span>Bruno</span></span>
+          <span class="hero-linha"><span><em>Chacon</em><i class="hero-ponto">.</i></span></span>
+        </h1>
+        <p class="hero-frase">Eu transformo ideias em sites rápidos, elegantes e feitos sob medida.</p>
+        <div class="hero-acoes">
+          <a href="#contato" class="botao botao-primario" data-testid="hero-cta-fale-comigo">Fale comigo</a>
+          <a href="#projetos" class="botao botao-fantasma" data-testid="hero-cta-ver-projetos">Ver projetos</a>
+        </div>
+      </div>
+      <div class="hero-rodape recipiente" aria-hidden="true">
+        <span class="linha-rolagem"></span>
+        <span class="hero-dica">Role para explorar</span>
+      </div>
+    </section>
+
+   
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-trilho">
+        <div class="marquee-grupo">
+          <span class="marquee-item">sites sob medida</span><span class="marquee-separador">·</span>
+          <span class="marquee-item">lojas online</span><span class="marquee-separador">·</span>
+          <span class="marquee-item">catálogos no WhatsApp</span><span class="marquee-separador">·</span>
+          <span class="marquee-item">portfólios fotográficos</span><span class="marquee-separador">·</span>
+          <span class="marquee-item">landing pages</span><span class="marquee-separador">·</span>
+          <span class="marquee-item">manutenção e melhorias</span><span class="marquee-separador">·</span>
+        </div>
+        <div class="marquee-grupo">
+          <span class="marquee-item">sites sob medida</span><span class="marquee-separador">·</span>
+          <span class="marquee-item">lojas online</span><span class="marquee-separador">·</span>
+          <span class="marquee-item">catálogos no WhatsApp</span><span class="marquee-separador">·</span>
+          <span class="marquee-item">portfólios fotográficos</span><span class="marquee-separador">·</span>
+          <span class="marquee-item">landing pages</span><span class="marquee-separador">·</span>
+          <span class="marquee-item">manutenção e melhorias</span><span class="marquee-separador">·</span>
+        </div>
+      </div>
+    </div>
+
+    
+    <section id="projetos" class="secao">
+      <div class="recipiente">
+        <header class="secao-cabecalho" data-animar>
+          <p class="secao-topo"><span class="secao-indice">01</span><span class="secao-rotulo">Trabalhos reais, clientes reais</span></p>
+          <h2 class="secao-titulo">Projetos<span class="ponto">.</span></h2>
+        </header>
+
+        <div class="grade-projetos">
+
+          
+          <article class="cartao" data-animar>
+            <a class="cartao-link" href="https://github.com/bchacon7/portfolio-victor-zoza" data-testid="projeto-zoza"> <!-- TROQUE AQUI: link do site da Zoza (ex.: https://seudominio.netlify.app) -->
+              <div class="cartao-midia">
+                <img src="imagens/pf1.png" alt="Página inicial do portfólio fotográfico da Zoza" loading="lazy">
+                <span class="cartao-marcador">01</span>
+                <div class="cartao-legenda">
+                  <span class="legenda-texto">Organização e apresentação visual</span>
+                  <span class="legenda-acao">Ver projeto</span>
+                </div>
+              </div>
+              <div class="cartao-corpo">
+                <h3>Portfólio fotográfico da Zoza</h3>
+                <p>Site que une organização, apresentação visual e funcionalidade para expor o trabalho da fotógrafa.</p>
+                <span class="cartao-tag">Site · Portfólio</span>
+              </div>
+            </a>
+          </article>
+
+          <!-- Projeto 2 — Buzzi Store -->
+          <article class="cartao" data-animar>
+            <a class="cartao-link" href="https://buzzistore01.netlify.app" data-testid="projeto-buzzi"> <!-- TROQUE AQUI: link da Buzzi Store -->
+              <div class="cartao-midia">
+                  <img src="imagens/b1.png" alt="Página inicial da Buzzi Store" loading="lazy">
+                <span class="cartao-marcador">02</span>
+                <span class="cartao-monograma" aria-hidden="true">B</span>
+                <div class="cartao-legenda">
+                  <span class="legenda-texto">Catálogo com pedido pelo WhatsApp</span>
+                  <span class="legenda-acao">Ver projeto</span>
+                </div>
+              </div>
+              <div class="cartao-corpo">
+                <h3>Buzzi Store</h3>
+                <p>Catálogo de camisas personalizadas com preços, promoção por quantidade e pedido pelo WhatsApp.</p>
+                <span class="cartao-tag">Catálogo · WhatsApp</span>
+              </div>
+            </a>
+          </article>
+
+          
+          <article class="cartao" data-animar>
+            <a class="cartao-link" href="https://vendinhagalega.netlify.app/" target="_blank" rel="noopener" data-testid="projeto-galega">
+              <div class="cartao-midia">
+                 <img src="imagens/g1.png" alt="Página inicial da lojinha " loading="lazy">
+                <span class="cartao-marcador">03</span>
+                <span class="cartao-monograma" aria-hidden="true">G</span>
+                <div class="cartao-legenda">
+                  <span class="legenda-texto">Pedidos diretos no WhatsApp da vendedora</span>
+                  <span class="legenda-acao">Ver projeto</span>
+                </div>
+              </div>
+              <div class="cartao-corpo">
+                <h3>Loja de Bairro</h3>
+                <p>Loja online em que o cliente escolhe os itens, ajusta a quantidade e envia o pedido direto para o WhatsApp da vendedora.</p>
+                <span class="cartao-tag">Loja online · WhatsApp</span>
+              </div>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="sobre" class="secao">
+      <div class="recipiente">
+        <header class="secao-cabecalho" data-animar>
+          <p class="secao-topo"><span class="secao-indice">02</span><span class="secao-rotulo">Formação &amp; prática</span></p>
+          <h2 class="secao-titulo">Sobre<span class="ponto">.</span></h2>
+        </header>
+
+        <div class="sobre-grade">
+          <p class="sobre-texto" data-animar>
+            Sou estudante de Análise e Desenvolvimento de Sistemas na UNIBRA, com formação técnica em
+            programação pelo Grau Técnico. Atuo como freelancer em projetos reais de clientes, cuidando do
+            processo inteiro — organização, design e código — sempre com clareza, atenção aos detalhes e prazo.
+          </p>
+
+          <ul class="lista-tecnologias" data-animar>
+            <li><span>01</span>HTML</li>
+            <li><span>02</span>CSS</li>
+            <li><span>03</span>JavaScript</li>
+            <li><span>04</span>Java</li>
+            <li><span>05</span>Python</li>
+            <li><span>06</span>SQL <em>(fundamentos)</em></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="secao">
+      <div class="recipiente">
+        <header class="secao-cabecalho" data-animar>
+          <p class="secao-topo"><span class="secao-indice">03</span><span class="secao-rotulo">Vamos conversar</span></p>
+          <h2 class="contato-titulo">Vamos construir <em>algo juntos</em><span class="ponto">?</span></h2>
+        </header>
+
+        <div class="contato-cartao" data-animar>
+
+          <div class="contato-foto">
+            <img src="imagens/p.png" alt="Foto de Bruno Chacon" loading="lazy">
+          </div>
+
+          <div class="contato-info">
+            <h3>Contato</h3>
+            <p class="contato-resumo">Disponível para sites sob medida, lojas online, catálogos e projetos para o seu negócio.</p>
+
+            <div class="contato-lista">
+              <div class="contato-item">
+                <strong>Email</strong>
+                <span>brunochaconfilho@gmail.com</span>
+              </div>
+              <div class="contato-item">
+                <strong>Telefone</strong>
+                <span>(81) 98719-8752</span>
+              </div>
+              <div class="contato-item">
+                <strong>Localização</strong>
+                <span>Recife - Pernambuco</span>
+              </div>
+            </div>
+
+            <div class="contato-redes">
+              <a href="https://wa.me/5581987198752" target="_blank" rel="noopener" data-testid="contato-whatsapp">WhatsApp</a>
+              <a href="mailto:brunochaconfilho@gmail.com" data-testid="contato-email">E-mail</a>
+              <a href="https://github.com/bchacon7" target="_blank" rel="noopener" data-testid="contato-github">GitHub</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  
+  <footer class="rodape">
+    <div class="rodape-conteudo recipiente">
+      <p>© <span id="ano" data-testid="rodape-ano">2026</span> Bruno Chacon</p>
+      <p class="rodape-nota">Feito com HTML, CSS e JavaScript puro</p>
+      <a href="#inicio" data-testid="voltar-topo">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
